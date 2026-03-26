@@ -1,5 +1,4 @@
 import { PageLayout, StarRating, Bubble } from "@/components/Layout";
-import appleBraces from "@/assets/apple-braces.png";
 import toothCharacter from "@/assets/tooth-character.png";
 import dentistsTeam from "@/assets/dentists-team.png";
 import happyChild from "@/assets/happy-child.png";
@@ -22,7 +21,7 @@ const HeroSection = () => (
         </p>
       </div>
       <div className="relative flex justify-center">
-        <img src={appleBraces} alt="Яблоко с брекетами" width={420} height={420} className="relative z-10 drop-shadow-2xl" />
+        <img src="/AppleNew.png" alt="Яблоко с брекетами" width={752} height={420} className="relative z-10 drop-shadow-2xl w-full max-w-[752px] h-auto" />
         <Bubble className="absolute top-4 right-4 z-20 animate-float">Ваши брекеты — наша забота!</Bubble>
         <Bubble className="absolute bottom-20 right-0 z-20 animate-float-delayed">Профессионалы!</Bubble>
         <Bubble className="absolute bottom-4 left-4 z-20 animate-float-slow">Профессиональное оборудование</Bubble>
