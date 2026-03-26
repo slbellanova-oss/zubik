@@ -42,7 +42,7 @@ const MissionSection = () => (
       <div className="relative flex justify-center">
         <img src={dentistsTeam} alt="Команда стоматологов" width={400} height={400} loading="lazy" className="rounded-2xl relative z-10" />
         <img src={toothBulb} alt="" width={80} height={80} loading="lazy" className="absolute -bottom-4 right-4 z-20 animate-float" />
-        <Bubble className="absolute top-4 left-0 z-20 animate-float-delayed">Новые технологии — наша забота!</Bubble>
+        <Bubble className="absolute top-4 left-0 z-20 animate-float-delayed">Ваша улыбка — наша работа!</Bubble>
       </div>
     </div>
   </section>
@@ -53,8 +53,8 @@ const ServicesSection = () => (
     <div className="max-w-7xl mx-auto grid lg:grid-cols-2 gap-12 items-start">
       <div className="relative flex justify-center">
         <img src={toothCharacter} alt="Зубик-персонаж" width={350} height={350} loading="lazy" className="drop-shadow-xl" />
-        <Bubble className="absolute top-0 left-0 animate-float">Новые технологии — наша забота!</Bubble>
-        <Bubble className="absolute top-0 right-0 animate-float-delayed">Профессионалы!</Bubble>
+        <Bubble className="absolute top-0 left-0 animate-float">Ваша улыбка — наша работа!</Bubble>
+        <Bubble className="absolute top-0 md:top-0 top-20 right-0 animate-float-delayed">Профессионалы!</Bubble>
         <div className="absolute bottom-4 left-1/2 -translate-x-1/2">
           <StarRating />
         </div>
